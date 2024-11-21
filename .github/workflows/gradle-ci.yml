@@ -2,8 +2,9 @@ name: Whisper Server CI
 runs-on: self-hosted
 on:
   push:
-    - 'main'
-    - 'develop'
+    branches:
+      - 'main'
+      - 'develop'
   pull_request:
     branches:
       - 'main'
